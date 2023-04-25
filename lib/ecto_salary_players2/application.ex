@@ -10,6 +10,7 @@ defmodule EctoSalaryPlayers2.Application do
     children = [
       # Starts a worker by calling: EctoSalaryPlayers2.Worker.start_link(arg)
       # {EctoSalaryPlayers2.Worker, arg}
+      EctoSalaryPlayers2.Repo
     ]
 
     # See https://hexdocs.pm/elixir/Supervisor.html
